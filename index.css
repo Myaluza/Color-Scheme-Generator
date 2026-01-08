@@ -48,10 +48,6 @@ button {
 }
 
 #colorSchemeSection {
-    display: grid;
-}
-
-#colorSchemeSection {
     display: flex;
 }
 
