@@ -10,9 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Smythe&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main>
-        <section id="inputSection">
-            <input type="color">
+    <section id="inputSection">
+            <input type="color" id="colorInput">
         <select name="colors" id="colors">
             <option value="monochrome">Monochrome</option>
             <option value="monochrome-light">Monochrome Light</option>
@@ -23,30 +22,10 @@
             <option value="triad">Triad</option>
             <option value="quad">Quad</option>
         </select>
-        <button>Get Color Scheme</button>
+        <button id="submit">Get Color Scheme</button>
         </section>
-        <section id="colorSchemeSection">
-            <div class="colorItem">
-                <div class="showColor"></div>
-                <p>thuthu</p>
-            </div>
-            <div class="colorItem">
-                <div class="showColor"></div>
-                <p></p>
-            </div>
-            <div class="colorItem" >
-                <div class="showColor"></div>
-                <p></p>
-            </div>
-            <div class="colorItem">
-                <div class="showColor"></div>
-                <p></p>
-            </div>
-            <div class="colorItem">
-                <div class="showColor"></div>
-                <p></p>
-            </div>
-        </section>
+    <main id="main">
+        
     </main>
     <script src="index.js"></script>
 </body>
